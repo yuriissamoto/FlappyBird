@@ -1,0 +1,70 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+#board {
+    background-color: skyblue;
+    background-image: url(".img/flappybirdbg.png");
+    
+}
+
+.birdHeader {
+    background: #64acdf;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+}
+
+.birdheaderbody {
+    display: flex;
+    flex-direction: column;
+}
+
+.birdHeaderTitle {
+    font-size: 1.8em;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    height: 10%;
+    color: rgb(25, 23, 61);
+}
+
+.birdHeaderTitle2 {
+    height: 10%;
+    font-size: 1.5em;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.birdBory {
+    background: #2b5a7b;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: rgb(77, 145, 209);
+}
+
+#scoreDisplay {
+    /* position: absolute;
+    top: 20px;
+    left: 20px; */
+    font-family: 'Exo', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+}
