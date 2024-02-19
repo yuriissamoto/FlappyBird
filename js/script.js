@@ -144,8 +144,8 @@ function placePipes() {
         return;
     }
 
-    let randomPipeY = pipeY - pipeHeight/4 - Math.random()*(pipeHeight/2);
-    let openingSpace = board.height/4;
+    let randomPipeY = pipeY - pipeHeight/8 - Math.random()*(pipeHeight/2);
+    let openingSpace = board.height/2;
 
     let topPipe = {
         img : topPipeImg,
